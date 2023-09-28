@@ -12,6 +12,9 @@ export const GET = async (request) => {
         contains: searchText,
         mode: "insensitive"
       }
+    },
+    orderBy: {
+      courseNo: "asc"
     }
   });
 
